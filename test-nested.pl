@@ -21,5 +21,5 @@ sub FailingTest2 :Tests(2) {
     ok 1;
 }
 
-Foo->runtests;
+__PACKAGE__->runtests;
 
